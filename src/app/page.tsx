@@ -21,7 +21,7 @@ export default async function Home() {
   })
 
   return (
-    <main className="md:flex md:justify-center md:mt-32 mt-10">
+    <main className="md:flex md:justify-center md:mt-28 mt-10">
       <div className='space-y-10'>
         <div>
           <h3 className="text-4xl md:text-6xl font-bold text-center tracking-wider p-4">{dataAtual} </h3>
