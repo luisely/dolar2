@@ -4,8 +4,6 @@ import getDolarPtax from '@/lib/getDolarPtax'
 import { format, parseISO } from 'date-fns'
 import ptBR from 'date-fns/locale/pt-BR'
 
-//export const revalidate = 60
-
 export default async function Home() {
   const dolarData: Promise<Dolar> = getDolar()
   const ptaxData: Promise<Ptax> = getDolarPtax()

@@ -1,6 +1,6 @@
 
 export default async function getDolar() {
-  const res = await fetch('https://economia.awesomeapi.com.br/last/USD-BRL', { next: { revalidate: 60 }})
+  const res = await fetch('https://economia.awesomeapi.com.br/last/USD-BRL', { cache: 'no-cache' })
 
   if (!res.ok) return undefined
 
