@@ -20,8 +20,6 @@ export default function RootLayout({
     <html lang="pt-br">
       <body className={`${inter.className} bg-zinc-900 text-slate-100`}>
         <div>
-        <Nav />
-
         {children}
         </div>
         
