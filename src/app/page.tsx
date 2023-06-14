@@ -30,7 +30,7 @@ export default async function Home() {
           <Card text="PTAX Venda" value={ptax.value[0].cotacaoVenda.toString()}/>
         </div>
         <div>
-          <p className="text-center" >Ultima atualização: {dateUpdated}</p>
+          <p className="text-center" >PTAX Ultima atualização: {dateUpdated}</p>
         </div>
       </div>
     </main>
